@@ -1,6 +1,17 @@
-public class Filename {
+import javax.swing.*;
+import java.awt.*;
 
-    public Filename() {}
+public class Filename extends JPanel {
 
-    public static void main(String[] args) {}
+    public Filename() {
+        setDoubleBuffered(true);
+    }
+
+    public void paintComponent() {
+        super.paintComponent();
+    }
+
+    public static void main(String[] args) throws InterruptedException {
+        
+    }
 }
